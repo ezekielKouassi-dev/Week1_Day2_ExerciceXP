@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header {
+    margin-bottom: 15px;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.article {
+    padding: 10px 0px 10px 0px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    border: 2px dotted palevioletred;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.article:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 4px 3px 1px black;
+}
